@@ -42,19 +42,19 @@ export default class WidgetProperties extends Vue {
       .widgetType;
 
     const subPage = {
-      [WidgetType.AlertBox]: 'alertbox',
-      [WidgetType.DonationGoal]: 'donationgoal',
-      [WidgetType.FollowerGoal]: 'followergoal',
-      [WidgetType.SubscriberGoal]: 'followergoal',
-      [WidgetType.BitGoal]: 'bitgoal',
-      [WidgetType.DonationTicker]: 'donationticker',
-      [WidgetType.ChatBox]: 'chatbox',
-      [WidgetType.EventList]: 'eventlist',
-      [WidgetType.TipJar]: 'jar',
-      [WidgetType.ViewerCount]: 'viewercount',
-      [WidgetType.StreamBoss]: 'streamboss',
-      [WidgetType.Credits]: 'credits',
-      [WidgetType.SpinWheel]: 'wheel'
+      // [WidgetType.AlertBox]: 'alertbox',
+      // [WidgetType.DonationGoal]: 'donationgoal',
+      // [WidgetType.FollowerGoal]: 'followergoal',
+      // [WidgetType.SubscriberGoal]: 'followergoal',
+      // [WidgetType.BitGoal]: 'bitgoal',
+      // [WidgetType.DonationTicker]: 'donationticker',
+      // [WidgetType.ChatBox]: 'chatbox',
+      // [WidgetType.EventList]: 'eventlist',
+      // [WidgetType.TipJar]: 'jar',
+      // [WidgetType.ViewerCount]: 'viewercount',
+      // [WidgetType.StreamBoss]: 'streamboss',
+      // [WidgetType.Credits]: 'credits',
+      // [WidgetType.SpinWheel]: 'wheel'
     }[widgetType.toString()];
 
     this.navigationService.navigate('Dashboard', { subPage });

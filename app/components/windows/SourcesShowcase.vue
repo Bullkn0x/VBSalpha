@@ -115,7 +115,8 @@
         </ul>
       </div>
 
-      <div class="source-group" v-if="loggedIn">
+      <!-- //Code for enabling the Streamlabs Widgets, disabled as of right now -->
+      <!-- <div class="source-group" v-if="loggedIn">
         <h3>{{ $t('Widgets') }}</h3>
         <div class="source-list">
           <div
@@ -139,7 +140,7 @@
             <div>{{ $t('Stream Label') }}</div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="source-group" v-if="showAppSources">
         <h3>{{ $t('Apps') }}</h3>
