@@ -11,7 +11,7 @@
   "Appearance": "外觀",
   "Remote Control": "遠端控制",
   "Night mode": "關燈模式",
-  "If you are experiencing weird behavior, you can try deleting your cache directory.  This will result in you losing your scene configuration and settings, but can fix some stability issues.": "如果你正經歷不正常的現象，可嘗試將快取資料夾清除。這將導致失去所有場景配置，但可以有效解決穩定性問題。",
+  "If you are experiencing issues with VBS, try clearing your cache.  This will result in losing your settings but may fix some stability issues.": "如果你正經歷不正常的現象，可嘗試將快取資料夾清除。這將導致失去所有場景配置，但可以有效解決穩定性問題。",
   "Show Cache Directory": "顯示快取資料夾",
   "Delete Cache and Restart": "刪取所有快取並重新啟動",
   "Upload Cache to Developers": "上傳快取資料給開發人員",

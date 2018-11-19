@@ -11,7 +11,7 @@
   "Appearance": "Udseende",
   "Remote Control": "Fjernstyring",
   "Night mode": "Mørk tilstand",
-  "If you are experiencing weird behavior, you can try deleting your cache directory.  This will result in you losing your scene configuration and settings, but can fix some stability issues.": "Hvis du oplever mærkelig opførsel, kan du prøve at slette din cachemappe.  Dette vil resultere i at du mister din scene konfiguration og indstillinger, men kan løse nogle stabilitetsproblemer.",
+  "If you are experiencing issues with VBS, try clearing your cache.  This will result in losing your settings but may fix some stability issues.": "Hvis du oplever mærkelig opførsel, kan du prøve at slette din cachemappe.  Dette vil resultere i at du mister din scene konfiguration og indstillinger, men kan løse nogle stabilitetsproblemer.",
   "Show Cache Directory": "Vis cachemappe",
   "Delete Cache and Restart": "Slet cache og genstart",
   "Upload Cache to Developers": "Upload cache til udviklerne",

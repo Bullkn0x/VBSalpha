@@ -11,7 +11,7 @@
   "Appearance": "Wygląd",
   "Remote Control": "Zdalne sterowanie",
   "Night mode": "Tryb nocny",
-  "If you are experiencing weird behavior, you can try deleting your cache directory.  This will result in you losing your scene configuration and settings, but can fix some stability issues.": "Jeśli występuje dziwne zachowanie, możesz spróbować usunąć katalog pamięci podręcznej. Spowoduje to utratę konfiguracje scen i ustawień, ale może rozwiązać to niektóre problemy ze stabilnością.",
+  "If you are experiencing issues with VBS, try clearing your cache.  This will result in losing your settings but may fix some stability issues.": "Jeśli występuje dziwne zachowanie, możesz spróbować usunąć katalog pamięci podręcznej. Spowoduje to utratę konfiguracje scen i ustawień, ale może rozwiązać to niektóre problemy ze stabilnością.",
   "Show Cache Directory": "Pokaż katalog pamięci podręcznej",
   "Delete Cache and Restart": "Usuń pamięć podręczną i uruchom ponownie",
   "Upload Cache to Developers": "Wyślij pamięć podręczną do deweloperów",

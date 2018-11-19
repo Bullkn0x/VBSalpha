@@ -11,7 +11,7 @@
   "Appearance": "Uitstraling",
   "Remote Control": "Afstandsbediening",
   "Night mode": "Nacht modus",
-  "If you are experiencing weird behavior, you can try deleting your cache directory.  This will result in you losing your scene configuration and settings, but can fix some stability issues.": "If you are experiencing weird behavior, you can try deleting your cache directory.  This will result in you losing your scene configuration and settings, but can fix some stability issues.",
+  "If you are experiencing issues with VBS, try clearing your cache.  This will result in losing your settings but may fix some stability issues.": "If you are experiencing issues with VBS, try clearing your cache.  This will result in losing your settings but may fix some stability issues.",
   "Show Cache Directory": "Toon cachedirectory",
   "Delete Cache and Restart": "Verwijder Cache en herstart",
   "Upload Cache to Developers": "Upload Cache naar ontwikkelaars",

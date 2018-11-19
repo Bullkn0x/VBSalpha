@@ -11,7 +11,7 @@
   "Appearance": "Apariencia",
   "Remote Control": "Control Remoto",
   "Night mode": "Modo noche",
-  "If you are experiencing weird behavior, you can try deleting your cache directory.  This will result in you losing your scene configuration and settings, but can fix some stability issues.": "Si estás experimentando un comportamiento extraño, puedes probar a borrar el directorio de caché. Perderás tu configuración de escena y ajustes, pero puede arreglar algunos problemas de estabilidad.",
+  "If you are experiencing issues with VBS, try clearing your cache.  This will result in losing your settings but may fix some stability issues.": "Si estás experimentando un comportamiento extraño, puedes probar a borrar el directorio de caché. Perderás tu configuración de escena y ajustes, pero puede arreglar algunos problemas de estabilidad.",
   "Show Cache Directory": "Mostrar Directorio de Caché",
   "Delete Cache and Restart": "Eliminar Caché y Reiniciar",
   "Upload Cache to Developers": "Enviar Caché a Desarrolladores",

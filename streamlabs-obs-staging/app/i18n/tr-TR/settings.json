@@ -11,7 +11,7 @@
   "Appearance": "Görünüş",
   "Remote Control": "Uzaktan Kontrol",
   "Night mode": "Gece Modu",
-  "If you are experiencing weird behavior, you can try deleting your cache directory.  This will result in you losing your scene configuration and settings, but can fix some stability issues.": "Eğer garip davranışlar deneyimliyorsanız önbellek dizinini temizlemeyi deneyebilirsiniz. Bu sahne ayar ve özelliklerini kaybetmenize sebep olabilir, ama bazı stabilite sorunlarını da giderebilir.",
+  "If you are experiencing issues with VBS, try clearing your cache.  This will result in losing your settings but may fix some stability issues.": "Eğer garip davranışlar deneyimliyorsanız önbellek dizinini temizlemeyi deneyebilirsiniz. Bu sahne ayar ve özelliklerini kaybetmenize sebep olabilir, ama bazı stabilite sorunlarını da giderebilir.",
   "Show Cache Directory": "Önbellek dizinini göster",
   "Delete Cache and Restart": "Önbelleği sil ve Yeniden Başlat",
   "Upload Cache to Developers": "Önbelleği Geliştiricilere Yolla",

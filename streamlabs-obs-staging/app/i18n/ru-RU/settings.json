@@ -11,7 +11,7 @@
   "Appearance": "Внешний вид",
   "Remote Control": "Дистанционное управление",
   "Night mode": "Ночной режим",
-  "If you are experiencing weird behavior, you can try deleting your cache directory.  This will result in you losing your scene configuration and settings, but can fix some stability issues.": "Если вы заметили странное поведение приложения, вы можете попробовать удалить вашу папку с кэш-данными. В результате, вы потеряете свои настройки и конфигурации сцен, но это может восстановить нормальное поведение приложения.",
+  "If you are experiencing issues with VBS, try clearing your cache.  This will result in losing your settings but may fix some stability issues.": "Если вы заметили странное поведение приложения, вы можете попробовать удалить вашу папку с кэш-данными. В результате, вы потеряете свои настройки и конфигурации сцен, но это может восстановить нормальное поведение приложения.",
   "Show Cache Directory": "Открыть папку с кэш-данными",
   "Delete Cache and Restart": "Удалить кэш и перезапустить",
   "Upload Cache to Developers": "Отправить кэш разработчикам",
