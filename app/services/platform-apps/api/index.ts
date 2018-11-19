@@ -50,7 +50,7 @@ export class PlatformAppsApi {
     app: ILoadedApp,
     webContentsId: number,
     electronWindowId: number,
-    slobsWindowId: string,
+    vbsWindowId: string,
     webviewTransform: Observable<IWebviewTransform>
   ) {
     const api: Dictionary<TApiModule> = {};
@@ -59,7 +59,7 @@ export class PlatformAppsApi {
       app,
       webContentsId,
       electronWindowId,
-      slobsWindowId,
+      vbsWindowId,
       webviewTransform
     };
 

@@ -491,7 +491,7 @@ export class PlatformAppsService extends
     appId: string,
     webContentsId: number,
     electronWindowId: number,
-    slobsWindowId: string,
+    vbsWindowId: string,
     transformSubjectId: string
   ) {
     const app = this.getApp(appId);
@@ -499,7 +499,7 @@ export class PlatformAppsService extends
       app,
       webContentsId,
       electronWindowId,
-      slobsWindowId,
+      vbsWindowId,
       this.getTransformSubject(transformSubjectId)
     );
 

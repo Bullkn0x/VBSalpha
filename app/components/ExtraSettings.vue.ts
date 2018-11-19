@@ -78,6 +78,10 @@ export default class ExtraSettings extends Vue {
     this.windowsService.closeChildWindow();
   }
 
+  openDiscord() {
+    this.remote.shell.openExternal('https://discord.gg/xXeDM4g');
+  }
+
   get isTwitch() {
     return (
       this.userService.isLoggedIn() &&

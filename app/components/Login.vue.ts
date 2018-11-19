@@ -18,7 +18,7 @@ export default class Login extends Vue {
   }
 
   logout() {
-    if (confirm($t('Are you sure you want to log out?'))) {
+    if (confirm($t('Are you sure you want to log out of VBS?'))) {
       this.userService.logOut();
     }
   }

@@ -34,7 +34,7 @@ export class DisplayModule extends Module {
 
     const display = new Display(displayId, {
       electronWindowId: ctx.electronWindowId,
-      slobsWindowId: ctx.slobsWindowId,
+      vbsWindowId: ctx.vbsWindowId,
       paddingColor: options.paddingColor,
       paddingSize: options.paddingSize || 0
     });

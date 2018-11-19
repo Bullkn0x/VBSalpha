@@ -27,7 +27,7 @@ import OneOffWindow from 'components/windows/OneOffWindow.vue';
 import electronLog from 'electron-log';
 
 const { ipcRenderer, remote } = electron;
-const slobsVersion = remote.process.env.SLOBS_VERSION;
+const vbsVersion = remote.process.env.SLOBS_VERSION;
 const isProduction = process.env.NODE_ENV === 'production';
 
 window['obs'] = window['require']('obs-studio-node');
@@ -55,7 +55,7 @@ if (isProduction) {
       'format=minidump&' +
       'token=e3f92ff3be69381afe2718f94c56da4644567935cc52dec601cf82b3f52a06ce',
     extra: {
-      version: slobsVersion,
+      version: vbsVersion,
       processType: 'renderer'
     }
   });
@@ -63,7 +63,7 @@ if (isProduction) {
 
 if ((isProduction || process.env.SLOBS_REPORT_TO_SENTRY) && !electron.remote.process.env.SLOBS_IPC) {
   Raven.config(sentryDsn, {
-    release: slobsVersion,
+    release: vbsVersion,
     dataCallback: data => {
       // Because our URLs are local files and not publicly
       // accessible URLs, we simply truncate and send only

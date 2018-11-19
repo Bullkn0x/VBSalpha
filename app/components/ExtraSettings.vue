@@ -18,8 +18,13 @@
     <div class="section-content">
       <ObsBoolInput :value="streamInfoUpdateModel" @input="setStreamInfoUpdate" />
       <div class="input-container">
+        <button class="button button--default" @click="openDiscord">
+          {{ $t('Join Discord') }}
+        </button>
+      </div>
+      <div class="input-container">
         <button class="button button--default" @click="restartStreamlabelsSession">
-          {{ $t('Restart Streamlabels Session') }}
+          {{ $t('Restart VBS labels') }}
         </button>
       </div>
       <div class="input-container" v-if="isTwitch && !isRecordingOrStreaming">

@@ -22,7 +22,7 @@ export interface IApiContext {
   app: ILoadedApp;
   webContentsId: number;
   electronWindowId: number;
-  slobsWindowId: string;
+  vbsWindowId: string;
   webviewTransform: Observable<IWebviewTransform>;
 }
 

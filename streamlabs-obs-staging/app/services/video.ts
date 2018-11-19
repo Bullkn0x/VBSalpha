@@ -17,7 +17,7 @@ export interface IDisplayOptions {
   sourceId?: string;
   paddingSize?: number;
   electronWindowId?: number;
-  slobsWindowId?: string;
+  vbsWindowId?: string;
   paddingColor?: IRGBColor;
 }
 
@@ -40,7 +40,7 @@ export class Display {
   };
 
   electronWindowId: number;
-  slobsWindowId: string;
+  vbsWindowId: string;
 
   private selectionSubscription: Subscription;
 
@@ -53,7 +53,7 @@ export class Display {
   constructor(public name: string, options: IDisplayOptions = {}) {
     this.sourceId = options.sourceId;
     this.electronWindowId = options.electronWindowId || remote.getCurrentWindow().id;
-    this.slobsWindowId = options.slobsWindowId || Utils.getCurrentUrlParams().windowId;
+    this.vbsWindowId = options.vbsWindowId || Utils.getCurrentUrlParams().windowId;
 
     const electronWindow = remote.BrowserWindow.fromId(this.electronWindowId);
 
@@ -122,7 +122,7 @@ export class Display {
   }
 
   getScaledRectangle(rect: ClientRect): IRectangle {
-    const factor: number = this.windowsService.state[this.slobsWindowId].scaleFactor;
+    const factor: number = this.windowsService.state[this.vbsWindowId].scaleFactor;
 
     return {
       x: rect.left * factor,
