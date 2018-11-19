@@ -82,8 +82,8 @@
   }
 
   &.success {
-    background-color: fade(@teal, 20%);
-    color: @teal;
+    background-color: fade(@VurteauPurple, 20%);
+    color: @VurteauPurple;
   }
 
   &.has-action {

@@ -1,5 +1,5 @@
 <template>
-<div class="notifications-area" v-if="settings.enabled">
+<!-- <div class="notifications-area" v-if="settings.enabled">
   <div
     class="notifications__counter notifications__counter--warning"
     v-if="unreadCount"
@@ -36,7 +36,7 @@
     </div>
   </div>
 
-</div>
+</div> -->
 </template>
 
 <script lang="ts" src="./NotificationsArea.vue.ts"></script>
@@ -82,8 +82,8 @@
   }
 
   &.success {
-    background-color: fade(@teal, 20%);
-    color: @teal;
+    background-color: fade(@VurteauPurple, 20%);
+    color: @VurteauPurple;
   }
 
   &.has-action {

@@ -120,7 +120,7 @@
     >a {
       >i,
       >span {
-        color: @teal;
+        color: @VurteauPurple;
       }
     }
   }

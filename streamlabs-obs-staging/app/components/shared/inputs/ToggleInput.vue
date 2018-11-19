@@ -62,7 +62,7 @@
   }
 
   .toggleinput__track {
-    background-color: @teal;
+    background-color: @VurteauPurple;
   }
 }
 

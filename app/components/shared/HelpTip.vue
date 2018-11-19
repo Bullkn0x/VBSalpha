@@ -18,7 +18,7 @@
 
 .help-tip {
   position: absolute;
-  background: @teal;
+  background: @VurteauPurple;
   .radius();
   color: @white;
   top: -8px;
@@ -34,7 +34,7 @@
   height: 0;
   border-style: solid;
   border-width: 8px 8px 8px 0;
-  border-color: transparent @teal transparent transparent;
+  border-color: transparent @VurteauPurple transparent transparent;
   position: absolute;
   left: -8px;
 }

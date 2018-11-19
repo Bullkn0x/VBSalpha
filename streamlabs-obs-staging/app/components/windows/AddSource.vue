@@ -116,7 +116,7 @@
 }
 
 .recommended-label {
-  color: @teal;
+  color: @VurteauPurple;
   margin-left: 10px;
   text-transform: none;
 }

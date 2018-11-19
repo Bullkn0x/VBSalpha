@@ -57,9 +57,10 @@
         <img class="theme-toggle__icon theme-toggle__icon--sun" src="../../media/images/sun.png"/>
       </button>
     </div>
+    <!-- //Code for the devtools option on top nav
     <div class="top-nav-item" v-if="isDevMode" style="z-index: 99999">
       <a class="link" @click="openDevTools">Dev Tools</a>
-    </div>
+    </div> -->
     <div class="top-nav-item" :class="{ 'top-nav-item--active': studioModeEnabled }">
       <a
         @click="studioMode"
@@ -103,7 +104,7 @@
     >a {
       >i,
       >span {
-        color: @teal;
+        color: @VurteauPurple;
       }
     }
   }

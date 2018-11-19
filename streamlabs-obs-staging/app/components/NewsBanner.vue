@@ -26,7 +26,7 @@
   width: 100%;
   min-height: 0;
   max-height: 0;
-  background-color: @teal;
+  background-color: @VurteauPurple;
   color: @white;
   display: flex;
   position: relative;

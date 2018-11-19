@@ -135,7 +135,7 @@
 }
 
 .transition-default {
-  color: @teal;
+  color: @VurteauPurple;
 }
 
 .transition-default-selector {

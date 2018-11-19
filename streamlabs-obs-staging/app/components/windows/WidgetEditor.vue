@@ -351,7 +351,7 @@
   }
 
   .custom-code__alert.active {
-    background-color: @teal;
+    background-color: @VurteauPurple;
   }
 
   .retry-button {
@@ -409,7 +409,7 @@
     }
 
     .custom-code__alert.active {
-      background-color: @teal;
+      background-color: @VurteauPurple;
     }
   }
 </style>

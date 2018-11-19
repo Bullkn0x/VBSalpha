@@ -16,12 +16,17 @@
   </div>
   <div class="section">
     <div class="section-content">
-      <ObsBoolInput :value="streamInfoUpdateModel" @input="setStreamInfoUpdate" />
       <div class="input-container">
+        <p>{{ $t('Having issues with VBS? Want to discuss streaming tips with other creators? Join our Discord!')}}</p>
         <button class="button button--default" @click="openDiscord">
           {{ $t('Join Discord') }}
         </button>
       </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-content">
+      <ObsBoolInput :value="streamInfoUpdateModel" @input="setStreamInfoUpdate" />
       <div class="input-container">
         <button class="button button--default" @click="restartStreamlabelsSession">
           {{ $t('Restart VBS labels') }}
@@ -31,7 +36,7 @@
         <button class="button button--default" @click="runAutoOptimizer">
           {{ $t('Run Auto Optimizer') }}
         </button>
-      </div>
+      </div>  
     </div>
   </div>
 </div>

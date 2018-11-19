@@ -63,7 +63,7 @@
 
 .editable-scene-collection--active {
   font-size: 12px;
-  color: @teal;
+  color: @VurteauPurple;
 }
 
 .editable-scene-collection--action {

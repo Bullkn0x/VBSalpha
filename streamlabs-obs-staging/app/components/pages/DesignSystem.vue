@@ -44,7 +44,7 @@
               <div class="design-system__color-wrapper">
                 <div class="design-system__color design-system__color--primary"></div>
                 <div>
-                  <div class="design-system__code">@primary, @teal</div>
+                  <div class="design-system__code">@primary, @VurteauPurple</div>
                   <div>Action Buttons, Label</div>
                 </div>
               </div>

@@ -23,7 +23,7 @@
 .night-theme {
   .text-area:focus {
     background-color: @night-hover;
-    border-color: @teal-light-opac;
+    border-color: @VurteauPurple-light-opac;
   }
 }
 </style>

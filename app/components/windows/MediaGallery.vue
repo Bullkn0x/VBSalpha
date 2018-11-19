@@ -109,8 +109,8 @@
 }
 
 .dropzone {
-  border: 2px dashed @teal-med-opac;
-  color: @teal-med-opac;
+  border: 2px dashed @VurteauPurple-med-opac;
+  color: @VurteauPurple-med-opac;
   text-align: center;
   padding: 10px 20px;
   font-size: 12px;
@@ -122,9 +122,9 @@
   }
 
   &:hover {
-    background-color: @teal-light-opac;
-    color: @teal;
-    border-color: @teal;
+    background-color: @VurteauPurple-light-opac;
+    color: @VurteauPurple;
+    border-color: @VurteauPurple;
     cursor: pointer;
   }
 }
@@ -155,7 +155,7 @@
 }
 
 .list__item.active {
-  background-color: @teal-light-opac;
+  background-color: @VurteauPurple-light-opac;
 }
 
 .progress-slider {
@@ -181,7 +181,7 @@
 }
 
 .toolbar {
-  border: 1px solid @teal-light-opac;
+  border: 1px solid @VurteauPurple-light-opac;
   .padding();
   .radius;
   background: @day-secondary;
@@ -189,11 +189,11 @@
 
   i {
     font-size: 20px;
-    color: @teal-med-opac;
+    color: @VurteauPurple-med-opac;
     margin-right: 8px;
 
     &:hover {
-      color: @teal;
+      color: @VurteauPurple;
       cursor: pointer;
     }
   }
@@ -280,8 +280,8 @@
   overflow: hidden;
 
   &:hover {
-    border-color: @teal-med-opac;
-    background-color: @teal-light-opac;
+    border-color: @VurteauPurple-med-opac;
+    background-color: @VurteauPurple-light-opac;
 
     .copy-button {
       display: inline-block;
@@ -289,8 +289,8 @@
   }
 
   &.selected {
-    border-color: @teal;
-    background-color: @teal-light-opac;
+    border-color: @VurteauPurple;
+    background-color: @VurteauPurple-light-opac;
   }
 }
 

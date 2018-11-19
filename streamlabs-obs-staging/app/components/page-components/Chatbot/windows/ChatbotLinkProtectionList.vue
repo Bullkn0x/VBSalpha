@@ -98,7 +98,7 @@ tbody tr {
       .transition;
 
       &:hover {
-        color: @teal;
+        color: @VurteauPurple;
       }
     }
   }

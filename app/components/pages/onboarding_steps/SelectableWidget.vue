@@ -68,17 +68,17 @@
   position: relative;
 
   &:hover {
-    border-color: @teal-light-opac;
+    border-color: @VurteauPurple-light-opac;
   }
 
   &.selected {
-    border-color: @teal;
+    border-color: @VurteauPurple;
 
     &:before {
       content: '\f00c';
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
-      color: @teal;
+      color: @VurteauPurple;
       position: absolute;
       top: 6px;
       right: 10px;
