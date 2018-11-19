@@ -1,5 +1,6 @@
 <template>
-  <div class="slide-open">
+  <!-- <div class="slide-open">
+  //Code for enabling or disabling the test widgets button
     <a
       class="slide-open__open link"
       @click="slideOpen = !slideOpen">
@@ -18,7 +19,7 @@
         </button>
       </div>
     </transition>
-  </div>
+  </div> -->
 </template>
 
 <script lang="ts" src="./TestWidgets.vue.ts"></script>

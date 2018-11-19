@@ -58,7 +58,7 @@ export default class SourceSelector extends Vue {
   @Inject() private selectionService: SelectionService;
 
   sourcesTooltip = $t('The building blocks of your scene. Also contains widgets.');
-  addSourceTooltip = $t('Add a new Source to your Scene. Includes widgets.');
+  addSourceTooltip = $t('Add a new Source to your Scene.');
   removeSourcesTooltip = $t('Remove Sources from your Scene.');
   openSourcePropertiesTooltip = $t('Open the Source Properties.');
   addGroupTooltip = $t('Add a Group so you can move multiple Sources at the same time.');

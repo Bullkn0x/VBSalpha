@@ -23,13 +23,14 @@
       :disabled="!isUserLoggedIn || locked">
       <i class="icon-question"/> <span>{{ $t('Support') }}</span>
     </button>
-    <button
+    <!-- <button
+      //Code for the Theme overlay button
       @click="navigateOverlays"
       class="tab-button"
       :class="{ 'is-active': page === 'BrowseOverlays' }"
       :disabled="!isUserLoggedIn || locked">
       <i class="icon-themes"/> <span>{{ $t('Themes') }}</span>
-    </button>
+    </button> -->
     <button
       @click="navigateStudio"
       class="tab-button"
@@ -49,6 +50,7 @@
   <div class="top-nav-right">
 
     <div class="top-nav-item">
+    <!-- //Code for the theme toggle option -->
       <button @click="toggleNightTheme" class="theme-toggle">
         <div class="theme-toggle__bg"></div>
         <img class="theme-toggle__icon theme-toggle__icon--moon" src="../../media/images/moon.png"/>

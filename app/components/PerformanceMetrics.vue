@@ -13,7 +13,6 @@
       <span class="performance-metric__value">{{ frameRate }}</span> FPS
     </span>
   </span>
-
 </div>
 </template>
 

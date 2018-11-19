@@ -10,7 +10,7 @@
         </div>
 
         <div class="link link--pointer" @click="manageCollections">
-          {{ $t('Manage All') }}
+          {{ $t('Manage All Scenes') }}
         </div>
         <div class="dropdown-menu__separator"></div>
         <div
