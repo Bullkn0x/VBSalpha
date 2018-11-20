@@ -114,7 +114,7 @@ export class CustomizationService
         type: 'OBS_PROPERTY_LIST',
         options: [
           {value: true, description: $t('Vurteau Dark') },
-          {value: false, description: $t('Fun Mode') }
+          {value: false, description: $t('Dream Stream') }
         ],
         visible: true,
         enabled: true,
