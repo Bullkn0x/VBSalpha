@@ -1,8 +1,8 @@
 <template>
 <div class="studio-controls row expanded">
   <scene-selector class="studio-controls-panel small-4 columns" />
-  <source-selector class="studio-controls-panel small-4 columns" />
   <mixer class="studio-controls-panel small-4 columns" />
+  <source-selector class="studio-controls-panel small-4 columns" />
 </div>
 </template>
 

@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="onboarding-step onboarding-step--wide">
+    <!-- Code for the Widgets selection under source selection -->
+    <!-- <div class="onboarding-step onboarding-step--wide">
       <div class="onboarding-title">{{ $t('Add Widgets') }}</div>
       <div class="onboarding-desc">
         {{ $t('Select the Streamlabs widgets you would like to activate for your stream. These will get automatically added to your scene.') }}
@@ -173,7 +174,7 @@
         <span>{{ $t('Rather do this manually?') }}</span>
         <a @click="skip">{{ $t('Setup later')}}</a>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
