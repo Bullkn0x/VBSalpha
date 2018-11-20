@@ -213,7 +213,7 @@ h2 {
 .source-welcome {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 50%;
 }
 
 .sources {

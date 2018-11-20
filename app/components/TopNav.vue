@@ -51,11 +51,11 @@
 
     <div class="top-nav-item">
     <!-- //Code for the theme toggle option -->
-      <button @click="toggleNightTheme" class="theme-toggle">
+      <!-- <button @click="toggleNightTheme" class="theme-toggle">
         <div class="theme-toggle__bg"></div>
         <img class="theme-toggle__icon theme-toggle__icon--moon" src="../../media/images/moon.png"/>
         <img class="theme-toggle__icon theme-toggle__icon--sun" src="../../media/images/sun.png"/>
-      </button>
+      </button> -->
     </div>
     <!-- Code for the devtools option on top nav -->
     <div class="top-nav-item" v-if="isDevMode" style="z-index: 99999">

@@ -18,12 +18,12 @@
     <div class="settings-container" ref="settingsContainer">
       <extra-settings v-if="categoryName === 'General'" />
       <language-settings v-if="categoryName === 'General'" />
+      <appearance-settings v-if="categoryName === 'Appearance'" />
       <hotkeys v-if="categoryName === 'Hotkeys'" />
       <developer-settings v-if="categoryName === 'Developer'" />
       <installed-apps v-if="categoryName === 'Installed Apps'" />
       <overlay-settings v-if="categoryName === 'Scene Collections'" />
       <notifications-settings v-if="categoryName === 'Notifications'" />
-      <appearance-settings v-if="categoryName === 'Appearance'" />
       <experimental-settings v-if="categoryName === 'Experimental'" />
       <remote-control-settings v-if="categoryName === 'Remote Control'" />
       <GenericFormGroups

@@ -2,6 +2,16 @@
 <div>
   <div class="section">
     <div class="section-content">
+      <div class="input-container">
+        <p>{{ $t('Having issues with VBS? Want to discuss streaming tips with other creators? Join our Discord!')}}</p>
+        <button class="button button--default" @click="openDiscord">
+          {{ $t('Join Discord') }}
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-content">
       <p>{{ $t('If you are experiencing issues with VBS, try clearing your cache.  This will result in losing your settings but may fix some stability issues.')}}</p>
       <div class="input-container">
         <a class="link" @click="showCacheDir">
@@ -11,16 +21,6 @@
       <div class="input-container">
         <a class="link" @click="deleteCacheDir">
           <i class="icon-trash" /> <span>{{ $t('Clear VBS Cache') }}</span></a>
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <div class="section-content">
-      <div class="input-container">
-        <p>{{ $t('Having issues with VBS? Want to discuss streaming tips with other creators? Join our Discord!')}}</p>
-        <button class="button button--default" @click="openDiscord">
-          {{ $t('Join Discord') }}
-        </button>
       </div>
     </div>
   </div>
@@ -36,7 +36,7 @@
         <button class="button button--default" @click="runAutoOptimizer">
           {{ $t('Run Auto Optimizer') }}
         </button>
-      </div>  
+      </div>
     </div>
   </div>
 </div>
