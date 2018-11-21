@@ -93,7 +93,7 @@
   width: 100px;
 }
 
-.st0{fill:#31C3A2;}
+.st0{fill:#6666FF;}
 .st1{fill:#2B383F;}
 .st2{fill:#4F5E65;}
 .st3{fill:#FFFFFF;}

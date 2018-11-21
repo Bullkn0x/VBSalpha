@@ -138,7 +138,7 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
 
     if (type === 'browser_source') {
       if (settings.shutdown === void 0) settings.shutdown = true;
-      if (settings.url === void 0) settings.url = 'https://streamlabs.com/browser-source';
+      if (settings.url === void 0) settings.url = 'Insert Affiliate URL here';
     }
 
     if (type === 'text_gdiplus') {
@@ -252,7 +252,7 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
     const whitelistedTypes: IObsListOption<TSourceType>[] = [
       { description: 'Image', value: 'image_source' },
       { description: 'Color Source', value: 'color_source' },
-      { description: 'Browser Source', value: 'browser_source' },
+      { description: 'Ad Layer', value: 'browser_source' },
       { description: 'Media Source', value: 'ffmpeg_source' },
       { description: 'Image Slide Show', value: 'slideshow' },
       { description: 'Text (GDI+)', value: 'text_gdiplus' },
@@ -467,21 +467,21 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
       componentName: 'SourcesShowcase',
       title: $t('Add Source'),
       size: {
-        width: 1200,
+        width: 800,
         height: 650
       }
     });
   }
 
-
+  // Sets the size for the add source window
   showAddSource(sourceType: TSourceType, sourceAddOptions?: ISourceAddOptions) {
     this.windowsService.showWindow({
       componentName: 'AddSource',
       title: $t('Add Source'),
       queryParams: { sourceType, sourceAddOptions },
       size: {
-        width: 600,
-        height: 540
+        width: 400,
+        height: 400
       }
     });
   }

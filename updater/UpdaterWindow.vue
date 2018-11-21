@@ -108,7 +108,7 @@ export default {
 
 .UpdaterWindow-progressBar {
   height: 8px;
-  background-color: #31c3a2;
+  background-color: #6666FF;
 }
 
 .UpdaterWindow-progressPercent {
