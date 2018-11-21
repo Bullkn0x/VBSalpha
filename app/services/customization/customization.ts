@@ -110,11 +110,11 @@ export class CustomizationService
       <IObsInput<boolean>> {
         value: settings.nightMode,
         name: 'nightMode',
-        description: $t('Theme Selector'),
+        description: $t('Select theme from dropdown'),
         type: 'OBS_PROPERTY_LIST',
         options: [
-          {value: true, description: $t('Vurteau Dark') },
-          {value: false, description: $t('Dream Stream') }
+          {value: true, description: $t('Dark Theme')},
+          {value: false, description: $t('Light Theme')},
         ],
         visible: true,
         enabled: true,

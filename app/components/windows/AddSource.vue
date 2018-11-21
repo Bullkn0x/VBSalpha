@@ -105,7 +105,7 @@
   }
 
   .columns {
-    height: 170px;
+    height: 150px;
   }
 }
 

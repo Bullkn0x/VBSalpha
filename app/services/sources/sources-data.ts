@@ -19,10 +19,10 @@ export const SourceDisplayData = (): { [key: string]: ISourceDisplayData } => ({
     supportList: colorSupport
   },
   browser_source: {
-    name: $t('Browser Source'),
-    description: $t('Allows you to add web-based content as a source, such as web pages and Flash SWFs.'),
+    name: $t('Ad Layer'),
+    description: $t('Allows you to add Vurteau Advertisements to your streams.'),
     demoFilename: 'browser-source.png',
-    supportList: [$t('Websites'), $t('Third party widgets'), 'HTML']
+    supportList: [$t('Advertisement'), $t('Third Party Ads'), 'HTML']
   },
   ffmpeg_source: {
     name: $t('Media Source'),

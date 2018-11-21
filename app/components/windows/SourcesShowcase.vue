@@ -87,7 +87,6 @@
         <div class="source-info__text">
           <h2>{{ $t('Welcome to sources!') }}</h2>
           <ol>
-            <li>{{ $t('Browse through our Standard and Widget sources') }}</li>
             <li>{{ $t('Click a source to get more details about it') }}</li>
             <li>{{ $t('Click "Add Source" when you\'re ready to add it to your scene') }}</li>
           </ol>
@@ -101,7 +100,7 @@
 
     <div class="sources" :class="{'sources--has-platform-apps' : showAppSources}">
       <div class="source-group">
-        <h3>{{ $t('Standard') }}</h3>
+        <h3>{{ $t('Sources Available') }}</h3>
         <ul class="source-list">
           <li
             v-for="source in availableSources"
@@ -236,7 +235,7 @@ h2 {
 
   .source {
     &:nth-child(1),
-    &:nth-child(2) {
+    &:nth-child(2), {
       margin-top: 0;
     }
   }

@@ -10,7 +10,7 @@ h1, h2, h3, h4 {
 }
 
 a {
-    color: #31c3a2;
+    color: #6666FF;
 }
 
 a:hover {
@@ -97,11 +97,11 @@ li.label.tsd-is-external {
 }
 
 .tsd-navigation.secondary ul.current a {
-    border-left-color: #31c3a2;
+    border-left-color: #6666FF;
 }
 
 .tsd-flag {
-    background-color: #31c3a2;
+    background-color: #6666FF;
 }
 
 .tsd-block-comment {
@@ -109,11 +109,11 @@ li.label.tsd-is-external {
 }
 
 .tsd-panel.tsd-implemented-by li a{
-    color: #31c3a2;
+    color: #6666FF;
 }
 
 .tsd-panel.tsd-implemented-by li a:hover {
-    color: #31c3a2;
+    color: #6666FF;
     text-decoration: inherit;
 }
 
