@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="columns small-6 buttons">
+        <div class="columns small-12 buttons">
           <button @click="addNew" class="button button--action">{{ $t('Add New Source') }}</button>
         </div>
       </div>
@@ -105,7 +105,7 @@
   }
 
   .columns {
-    height: 170px;
+    height: 150px;
   }
 }
 

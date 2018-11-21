@@ -235,7 +235,7 @@ h2 {
 
   .source {
     &:nth-child(1),
-    &:nth-child(2) {
+    &:nth-child(2), {
       margin-top: 0;
     }
   }

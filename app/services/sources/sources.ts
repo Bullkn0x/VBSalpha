@@ -467,8 +467,8 @@ export class SourcesService extends StatefulService<ISourcesState> implements IS
       componentName: 'SourcesShowcase',
       title: $t('Add Source'),
       size: {
-        width: 800,
-        height: 650
+        width: 650,
+        height: 585
       }
     });
   }
