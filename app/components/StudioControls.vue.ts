@@ -7,8 +7,8 @@ import Mixer from './Mixer.vue';
 @Component({
   components: {
     SceneSelector,
+    SourceSelector,
     Mixer,
-    SourceSelector
 
   }
 })
