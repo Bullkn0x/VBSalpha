@@ -571,11 +571,11 @@ export class PlatformAppsService extends
             return;
           }
 
-          // Let through all chrome dev tools requests
-          if (parsed.protocol === 'chrome-devtools:') {
-            cb({});
-            return;
-          }
+          // // Let through all chrome dev tools requests
+          // if (parsed.protocol === 'chrome-devtools:') {
+          //   cb({});
+          //   return;
+          // }
           // Cancel all other script requests.
           // TODO: Handle production apps
           console.log('canceling', details);
