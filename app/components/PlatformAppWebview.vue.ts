@@ -93,13 +93,13 @@ export default class PlatformAppWebview extends Vue {
       electron.ipcRenderer.send('webContents-preventNavigation', webContents.id);
 
       // We allow opening dev tools for beta apps only
-      if (app.beta) {
-        webContents.on('before-input-event', (e, input) => {
-          if ((input.type === 'keyDown') && (input.code === 'KeyI') && input.control && input.shift) {
-            this.$refs.appView.openDevTools();
-          }
-        });
-      }
+      // if (app.beta) {
+      //   webContents.on('before-input-event', (e, input) => {
+      //     if ((input.type === 'keyDown') && (input.code === 'KeyI') && input.control && input.shift) {
+      //       this.$refs.appView.openDevTools();
+      //     }
+      //   });
+      // }
     });
   }
 
