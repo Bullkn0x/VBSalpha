@@ -65,7 +65,7 @@
       <a
         @click="studioMode"
         class="link">
-        <i class="icon-studio-mode-3" v-tooltip.right="studioModeTooltip" /><div>{{ $t('Studio Mode') }}</div>
+        <div>{{ $t('Studio Mode') }}</div>
       </a>
     </div>
     <div class="top-nav-item">
