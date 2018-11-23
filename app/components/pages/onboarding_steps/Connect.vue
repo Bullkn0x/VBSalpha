@@ -11,23 +11,24 @@
       <div class="onboarding-desc" v-else>{{ $t('Sign in with your Twitch or Youtube account to get started with Streamlabs') }}</div>
       <div class="signup-buttons">
         <button
-          class="button button--twitch"
-          :disabled="loadingState"
-          @click="authPlatform('twitch')">
-          <i :class="iconForPlatform('twitch')" /> Twitch
-        </button>
-        <button
           class="button button--yt"
           :disabled="loadingState"
           @click="authPlatform('youtube')">
           <i :class="iconForPlatform('youtube')" /> Youtube
         </button>
         <button
+          class="button button--twitch"
+          :disabled="loadingState"
+          @click="authPlatform('twitch')">
+          <i :class="iconForPlatform('twitch')" /> Twitch
+        </button>
+
+        <!-- <button
           class="button button--mixer"
           :disabled="loadingState"
           @click="authPlatform('mixer')">
           <i :class="iconForPlatform('mixer')" /> Mixer
-        </button>
+        </button> -->
       </div>
       <div class="setup-later" v-if="!isSecurityUpgrade">
         <a @click="skipOnboarding">{{ $t('Setup later')}}</a>
