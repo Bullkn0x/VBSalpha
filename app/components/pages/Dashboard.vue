@@ -8,6 +8,7 @@
       :src="dashboardUrl"
       ref="dashboard"
       preload="bundles/guest-api">
+      useragent='vbs'
     </webview>
     <!-- <p v-else>User Not Logged In, Display something here????</p> -->
   </div>
@@ -33,4 +34,3 @@
   left: 0;
 }
 </style>
-
