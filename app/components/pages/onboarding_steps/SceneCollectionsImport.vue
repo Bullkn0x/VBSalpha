@@ -2,7 +2,7 @@
 <div>
   <div class="onboarding-step">
     <div class="onboarding-title">{{ $t('Scene Collections Import') }}</div>
-    <div class="onboarding-desc">{{ $t('The following scene collections have been imported from your Streamlabs account') }}</div>
+    <div class="onboarding-desc">{{ $t('The following collections have been imported from your Vurteau account') }}</div>
     <ul class="scene-collections-list">
       <li v-for="collection in sceneCollections" :key="collection.id">
         {{ collection.name }}

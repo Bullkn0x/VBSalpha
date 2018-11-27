@@ -121,13 +121,6 @@ export default class TopNav extends Vue {
     return this.userService.state.auth;
   }
 
-  get appStoreVisible() {
-    return (this.platformAppsService.state.storeVisible
-      || this.featureIsEnabled(this.availableFeatures.platform))
-      && this.userService.isLoggedIn()
-      && this.userService.platform.type === 'twitch';
-  }
-
   get loading() {
     return this.appService.state.loading;
   }
