@@ -211,7 +211,7 @@ export class UserService extends PersistentStatefulService<IUserServiceState> {
   }
 
   //Code for setting the appStore URL. Changed appStore to Technical Support for now
-  appStoreUrl(appId?: string) {
+  TechSupportURL(appId?: string) {
     const host = this.hostsService.platform;
     const token = this.apiToken;
     const nightMode = this.customizationService.nightMode ? 'night' : 'day';

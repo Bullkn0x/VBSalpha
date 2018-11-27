@@ -375,7 +375,7 @@ angular:
   styles:
     - brands
   unicode: f420
-app-store:
+tech-support-app:
   changes:
     - 5.0.0
   label: App Store
@@ -384,7 +384,7 @@ app-store:
   styles:
     - brands
   unicode: f36f
-app-store-ios:
+tech-support-app-ios:
   changes:
     - 5.0.0
   label: iOS App Store

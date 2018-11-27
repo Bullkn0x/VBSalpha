@@ -40,7 +40,7 @@ import { StreamInfoService } from './services/stream-info';
 import { StreamingService } from './services/streaming';
 import { StreamlabelsService } from './services/streamlabels';
 import { PlatformAppsService } from 'services/platform-apps';
-import { PlatformAppStoreService } from 'services/platform-app-store';
+import { AppTechSupportService } from 'services/platform-tech-support';
 import Utils from './services/utils';
 import { commitMutation } from './store';
 import traverse from 'traverse';
@@ -152,7 +152,7 @@ export class ServicesManager extends Service {
     StreamInfoService,
     StreamlabelsService,
     PlatformAppsService,
-    PlatformAppStoreService,
+    AppTechSupportService,
     GuestApiService,
     VideoEncodingOptimizationService,
     CrashReporterService,

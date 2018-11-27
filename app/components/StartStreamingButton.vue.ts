@@ -53,7 +53,7 @@ export default class StartStreamingButton extends Vue {
       } else {
         this.streamingService.toggleStreaming();
         if (this.userService.isLoggedIn()) {
-          this.navigationService.navigate('Live');
+          // this.navigationService.navigate('Live');
         }
       }
     }

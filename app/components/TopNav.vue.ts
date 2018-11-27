@@ -53,8 +53,8 @@ export default class TopNav extends Vue {
     this.navigationService.navigate('Dashboard');
   }
 
-  navigatePlatformAppStore() {
-    this.navigationService.navigate('PlatformAppStore');
+  navigateTechSupport() {
+    this.navigationService.navigate('AppTechSupport');
   }
 
   navigateOverlays() {

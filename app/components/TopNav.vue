@@ -1,49 +1,26 @@
 <template>
 <div class="top-nav" :class="{'loading': loading}">
-  <!--<button
-      @click="navigateOnboarding"
-      class="button button--action"
-      :class="{ active: page === 'Onboarding' }">
-      Onboarding
-  </button>-->
-
   <div class="tabs">
     <button
       @click="navigateDashboard"
       class="tab-button"
       :class="{ active: page === 'Dashboard' }"
-      :disabled="!isUserLoggedIn || locked">
+      >
       <i class="icon-dashboard"/> <span>{{ $t('Dashboard') }}</span>
     </button>
     <button
-      v-if="appStoreVisible"
-      @click="navigatePlatformAppStore"
+      @click="navigateTechSupport"
       class="tab-button"
-      :class="{ 'is-active': page === 'PlatformAppStore' }"
-      :disabled="!isUserLoggedIn || locked">
+      :class="{ 'is-active': page === 'AppTechSupport' }"
+      >
       <i class="icon-question"/> <span>{{ $t('Support') }}</span>
     </button>
-    <!-- <button
-      //Code for the Theme overlay button
-      @click="navigateOverlays"
-      class="tab-button"
-      :class="{ 'is-active': page === 'BrowseOverlays' }"
-      :disabled="!isUserLoggedIn || locked">
-      <i class="icon-themes"/> <span>{{ $t('Themes') }}</span>
-    </button> -->
     <button
       @click="navigateStudio"
       class="tab-button"
       :class="{ 'is-active': page === 'Studio' }"
-      :disabled="locked">
+      >
       <i class="icon-studio"/> <span>{{ $t('Editor') }}</span>
-    </button>
-    <button
-      @click="navigateLive"
-      class="tab-button"
-      :class="{ 'is-active': page === 'Live' }"
-      :disabled="!isUserLoggedIn || locked">
-      <i class="icon-live-dashboard"/> <span>{{ $t('Live') }}</span>
     </button>
   </div>
 

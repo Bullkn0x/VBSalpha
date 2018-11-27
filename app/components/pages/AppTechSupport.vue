@@ -1,22 +1,22 @@
 <template>
 <div>
-  <div class="app-store-container">
+  <div class="tech-support-app-container">
     <webview
-      class="app-store"
+      class="tech-support-app"
       v-if="loggedIn"
-      id="appStoreWebview"
-      :src="appStoreUrl"
-      ref="appStoreWebview"
+      id="appTechWebview"
+      :src="TechSupportURL"
+      ref="appTechWebview"
       preload="bundles/guest-api">
     </webview>
   </div>
 </div>
 </template>
 
-<script lang="ts" src="./PlatformAppStore.vue.ts"></script>
+<script lang="ts" src="./AppTechSupport.vue.ts"></script>
 
 <style lang="less" scoped>
-.app-store-container {
+.tech-support-app-container {
   position: absolute;
   top: -1px;
   right: 0;
@@ -24,7 +24,7 @@
   left: 0;
 }
 
-.app-store {
+.tech-support-app {
   position: absolute;
   top: -2px;
   right: 0;
@@ -32,4 +32,3 @@
   left: 0;
 }
 </style>
-

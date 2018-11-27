@@ -6,14 +6,14 @@ import { GuestApiService } from 'services/guest-api';
 import { I18nService } from 'services/i18n';
 import electron from 'electron';
 import { PlatformAppsService, EAppPageSlot } from 'services/platform-apps';
-import { PlatformAppStoreService } from 'services/platform-app-store';
+import { AppTechSupportService } from 'services/platform-tech-support';
 import Utils from 'services/utils';
 
 @Component({})
-export default class PlatformAppStore extends Vue {
+export default class AppTechSupport extends Vue {
   @Inject() userService: UserService;
   @Inject() platformAppsService: PlatformAppsService;
-  @Inject() platformAppStoreService: PlatformAppStoreService;
+  @Inject() AppTechSupportService: AppTechSupportService;
   @Inject() guestApiService: GuestApiService;
   @Inject() i18nService: I18nService;
 
@@ -22,16 +22,16 @@ export default class PlatformAppStore extends Vue {
   };
 
   $refs: {
-    appStoreWebview: Electron.WebviewTag;
+    appTechWebview: Electron.WebviewTag;
   };
 
   mounted() {
-    this.$refs.appStoreWebview.addEventListener('dom-ready', () => {
+    this.$refs.appTechWebview.addEventListener('dom-ready', () => {
       if (Utils.isDevMode()) {
-        this.$refs.appStoreWebview.openDevTools();
+        this.$refs.appTechWebview.openDevTools();
       }
       this.guestApiService.exposeApi(
-        this.$refs.appStoreWebview.getWebContents().id,
+        this.$refs.appTechWebview.getWebContents().id,
         {
           reloadProductionApps: this.reloadProductionApps,
           openLinkInBrowser: this.openLinkInBrowser,
@@ -42,7 +42,7 @@ export default class PlatformAppStore extends Vue {
   }
 
   async onPaypalAuthSuccessHandler(callback: Function) {
-    this.platformAppStoreService.bindsPaypalSuccessCallback(callback);
+    this.AppTechSupportService.bindsPaypalSuccessCallback(callback);
   }
 
   async openLinkInBrowser(url: string) {
@@ -57,7 +57,7 @@ export default class PlatformAppStore extends Vue {
     return this.userService.isLoggedIn();
   }
 
-  get appStoreUrl() {
-    return this.userService.appStoreUrl(this.params.appId);
+  get TechSupportURL() {
+    return this.userService.TechSupportURL(this.params.appId);
   }
 }

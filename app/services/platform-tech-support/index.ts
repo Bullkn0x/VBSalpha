@@ -1,6 +1,6 @@
 import { Service } from 'services/service';
 
-export class PlatformAppStoreService extends Service {
+export class AppTechSupportService extends Service {
 
   paypalAuthCallback: Function = () => { }
 

@@ -4,7 +4,7 @@ import url from 'url';
 import { Inject } from 'util/injector';
 import { NavigationService } from 'services/navigation';
 import { PlatformAppsService } from 'services/platform-apps';
-import { PlatformAppStoreService } from 'services/platform-app-store';
+import { AppTechSupportService } from 'services/platform-tech-support';
 
 function protocolHandler(base: string) {
   return (target: any, methodName: string, descriptor: PropertyDescriptor) => {
@@ -26,7 +26,7 @@ interface IProtocolLinkInfo {
 export class ProtocolLinksService extends Service {
   @Inject() navigationService: NavigationService;
   @Inject() platformAppsService: PlatformAppsService;
-  @Inject() platformAppStoreService: PlatformAppStoreService;
+  @Inject() AppTechSupportService: AppTechSupportService;
 
   // Maps base URL components to handler function names
   private handlers: Dictionary<string>;
@@ -76,7 +76,7 @@ export class ProtocolLinksService extends Service {
 
   @protocolHandler('paypalauth')
   private updateUserBillingInfo(info: IProtocolLinkInfo) {
-    this.platformAppStoreService.paypalAuthSuccess();
+    this.AppTechSupportService.paypalAuthSuccess();
   }
 
   @protocolHandler('app')
@@ -86,7 +86,7 @@ export class ProtocolLinksService extends Service {
     if (this.platformAppsService.getApp(appId)) {
       this.navigationService.navigate('PlatformAppContainer', { appId });
     } else {
-      this.navigationService.navigate('PlatformAppStore', { appId });
+      this.navigationService.navigate('AppTechSupport', { appId });
     }
   }
 }

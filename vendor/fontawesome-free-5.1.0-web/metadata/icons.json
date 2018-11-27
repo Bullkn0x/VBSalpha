@@ -1113,7 +1113,7 @@
       }
     }
   },
-  "app-store": {
+  "tech-support-app": {
     "changes": [
       "5.0.0"
     ],
@@ -1142,7 +1142,7 @@
       }
     }
   },
-  "app-store-ios": {
+  "tech-support-app-ios": {
     "changes": [
       "5.0.0"
     ],

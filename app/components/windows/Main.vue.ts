@@ -10,7 +10,7 @@ import { PlatformAppsService, EAppPageSlot } from 'services/platform-apps';
 import Studio from '../pages/Studio.vue';
 import Dashboard from '../pages/Dashboard.vue';
 import Chatbot from '../pages/Chatbot.vue';
-import PlatformAppStore from '../pages/PlatformAppStore.vue';
+import AppTechSupport from '../pages/AppTechSupport.vue';
 import BrowseOverlays from 'components/pages/BrowseOverlays.vue';
 import Live from '../pages/Live.vue';
 import Onboarding from '../pages/Onboarding.vue';
@@ -48,7 +48,7 @@ import electron from 'electron';
     Chatbot,
     DesignSystem,
     PlatformAppWebview,
-    PlatformAppStore,
+    AppTechSupport,
     Help
   }
 })
