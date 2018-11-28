@@ -22,13 +22,6 @@
           @click="authPlatform('twitch')">
           <i :class="iconForPlatform('twitch')" /> Twitch
         </button>
-
-        <!-- <button
-          class="button button--mixer"
-          :disabled="loadingState"
-          @click="authPlatform('mixer')">
-          <i :class="iconForPlatform('mixer')" /> Mixer
-        </button> -->
       </div>
       <div class="setup-later" v-if="!isSecurityUpgrade">
         <a @click="skipOnboarding">{{ $t('Setup later')}}</a>

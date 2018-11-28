@@ -18,10 +18,8 @@ import ImagePickerInput from 'components/shared/inputs/ImagePickerInput.vue';
 const nameMap = () => ({
   tips: $t('Tips & Donations'),
   twitch_follows: $t('Twitch Follows'),
-  mixer_follows: $t('Mixer Follows'),
   twitch_bits: $t('Twitch Bits'),
   twitch_subs: $t('Twitch Subs'),
-  mixer_subscriptions: $t('Mixer Subscriptions'),
   twitch_resubs: $t('Twitch Resubs'),
   youtube_subscribers: $t('Youtube Subscriptions'),
   youtube_sponsors: $t('Youtube Sponsors'),
@@ -34,7 +32,6 @@ const nameMap = () => ({
 const mediaGalleryInputs = {
   twitch: ['twitch_follows'],
   youtube: ['youtube_subscribers', 'youtube_sponsors'],
-  mixer: ['mixer_subscriptions', 'mixer_follows']
 };
 
 @Component({

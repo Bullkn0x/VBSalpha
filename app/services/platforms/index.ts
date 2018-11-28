@@ -1,6 +1,5 @@
 import { TwitchService } from './twitch';
 import { YoutubeService } from './youtube';
-import { MixerService } from './mixer';
 import { integer } from 'aws-sdk/clients/lightsail';
 
 export interface IChannelInfo {
@@ -55,12 +54,11 @@ export interface IUserInfo {
   username?: string;
 }
 
-export type TPlatform = 'twitch' | 'youtube' | 'mixer';
+export type TPlatform = 'twitch' | 'youtube';
 
 export function getPlatformService(platform: TPlatform): IPlatformService {
   return {
     twitch: TwitchService.instance,
-    youtube: YoutubeService.instance,
-    mixer: MixerService.instance
+    youtube: YoutubeService.instance
   }[platform];
 }

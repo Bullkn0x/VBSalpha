@@ -17,7 +17,7 @@
       <ObsTextInput v-model="streamTitleModel" />
       <ObsTextInput  v-if="isYoutube" v-model="streamDescriptionModel" />
       <ObsListInput
-        v-if="isTwitch || isMixer"
+        v-if="isTwitch"
         :value="gameModel"
         :allowEmpty="true"
         placeholder="Search"

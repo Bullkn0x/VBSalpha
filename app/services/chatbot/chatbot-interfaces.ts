@@ -471,7 +471,7 @@ export type ChatbotAlertType =
 
 export type ChatbotSocketRoom = 'queue' | 'giveaway';
 
-export const ChatbotClients = ['Twitch', 'Mixer', 'Youtube'];
+export const ChatbotClients = ['Twitch', 'Youtube'];
 
 export type ChatbotSettingSlug =
   | 'chat-notifications'

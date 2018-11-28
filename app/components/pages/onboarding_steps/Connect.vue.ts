@@ -34,8 +34,7 @@ export default class Connect extends Vue {
 
     return {
       twitch: 'fab fa-twitch',
-      youtube: 'fab fa-youtube',
-      mixer: 'fas fa-times'
+      youtube: 'fab fa-youtube'
     }[platform];
   }
 

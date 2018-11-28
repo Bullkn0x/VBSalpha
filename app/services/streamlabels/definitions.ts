@@ -40,13 +40,6 @@ export function getDefinitions(platform: TPlatform) {
     };
   }
 
-  if (platform === 'mixer') {
-    return {
-      ...allDefinitions,
-      ...mixerDefinitions
-    };
-  }
-
   throw new Error(`${platform} is not a supported platform`);
 }
 
@@ -997,110 +990,6 @@ const twitchDefinitions: IStreamlabelSet = {
         settings: {
           format: { tokens: ['{name}', '{months}'] }
         }
-      }
-    ]
-  }
-};
-const mixerDefinitions: IStreamlabelSet = {
-  // trains_combos: {
-  //   label: 'Trains/Combos',
-  //   files: [
-  //     {
-  //       name: 'train_tips',
-  //       label: 'Donation Train',
-  //     },
-  //     {
-  //       name: 'train_mixer_follows',
-  //       label: 'Follows Train',
-  //     },
-  //     {
-  //       name: 'train_mixer_subscriptions',
-  //       label: 'Subscription Train',
-  //     }
-  //   ]
-  // },
-  subscribers: {
-    label: 'Subscribers',
-    files: [
-      // {
-      //     name: 'total_mixer_subscriber_count',
-      //     label: 'Total Subscriber Count',
-      //     settings: {
-      //         format: { tokens: ['{count}'] }
-      //     },
-      // },
-      {
-        name: 'most_recent_mixer_subscriber',
-        label: 'Most Recent Subscriber',
-        settings: {
-          format: { tokens: ['{name}'] },
-        },
-      },
-      {
-        name: 'session_mixer_subscribers',
-        label: 'Session Subscribers (Max 100)',
-        settings: {
-          format: { tokens: ['{list}'] },
-          item_format: { tokens: ['{name}'] },
-          item_separator: { tokens: ['\\n'] },
-        },
-      },
-      {
-        name: 'session_mixer_subscriber_count',
-        label: 'Session Subscriber Count',
-        settings: {
-          format: { tokens: ['{count}'] },
-        },
-      },
-      {
-        name: 'session_most_recent_mixer_subscriber',
-        label: 'Session Most Recent Subscriber',
-        settings: {
-          format: { tokens: ['{name}'] },
-        },
-      }
-    ]
-  },
-  followers: {
-    label: 'Followers',
-    files: [
-      // {
-      //     name: 'total_follower_count',
-      //     label: 'Total Follower Count',
-      //     settings: {
-      //         format: { tokens: ['{count}'] }
-      //     },
-      //     template: 'simpleFileForm'
-      // },
-      {
-        name: 'most_recent_mixer_follower',
-        label: 'Most Recent Follower',
-        settings: {
-          format: { tokens: ['{name}'] }
-        },
-      },
-      {
-        name: 'session_mixer_followers',
-        label: 'Session Followers (Max 100)',
-        settings: {
-          format: { tokens: ['{list}'] },
-          item_format: { tokens: ['{name}'] },
-          item_separator: { tokens: ['\\n'] }
-        },
-      },
-      {
-        name: 'session_mixer_follower_count',
-        label: 'Session Follower Count',
-        settings: {
-          format: { tokens: ['{count}'] }
-        },
-      },
-      {
-        name: 'session_most_recent_mixer_follower',
-        label: 'Session Most Recent Follower',
-        settings: {
-          format: { tokens: ['{name}'] }
-        },
       }
     ]
   }
