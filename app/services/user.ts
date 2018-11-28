@@ -68,7 +68,8 @@ export class UserService extends PersistentStatefulService<IUserServiceState> {
 
   @mutation()
   private SET_USERNAME(name: string) {
-    this.state.auth.platform.channelId = name;
+    // this.state.auth.platform.channelId = name;
+    this.state.auth.platform.username = name;
   }
 
   userLogin = new Subject<IPlatformAuth>();

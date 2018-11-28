@@ -30,9 +30,11 @@ export class YoutubeService extends StatefulService<IYoutubeServiceState> implem
   liveStreamId = '';
 
   get authUrl() {
-    const host = this.hostsService.streamlabs;
-    return `https://${host}/slobs/login?_=${Date.now()}` +
-      '&skip_splash=true&external=electron&youtube&force_verify&origin=slobs';
+    //const host = this.hostsService.streamlabs;
+    // return `https://${host}/slobs/login?_=${Date.now()}` +
+    //   '&skip_splash=true&external=electron&youtube&force_verify&origin=slobs';
+
+    return 'https://youtube.vurteau.com?';
   }
 
   get oauthToken() {

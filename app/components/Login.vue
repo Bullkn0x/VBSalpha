@@ -2,7 +2,7 @@
   <div>
     <div v-if="loggedIn">
       <a class="link" @click="logout">
-        <i class="icon-logout"/> <span class="user__name">{{ username }}</span>
+        <i class="icon-logout"/> <span class="user__name">{{ IUserInfo }}</span>
       </a>
     </div>
     <div
