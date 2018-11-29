@@ -4,7 +4,7 @@
 
 Simple, powerful, and efficient live streaming software built on Electron and OBS.
 
-![Vurteau Broadcast Studio](https://cdn.streamlabs.com/slobs/slobs-chatbox.png)
+![Vurteau Broadcast Studio]
 
 This application currently only supports 64-bit Windows.
 
