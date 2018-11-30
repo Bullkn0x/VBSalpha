@@ -81,7 +81,7 @@
     >a {
       >i,
       >span {
-        color: @VurteauPurple;
+        color: @VurteauNav;
       }
     }
   }
