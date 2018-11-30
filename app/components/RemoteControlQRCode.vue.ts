@@ -52,7 +52,7 @@ export default class RemoteControlQRCodeVue extends Vue {
       token: settings.token,
       port: settings.websockets.port,
       addresses,
-      version: remote.process.env.SLOBS_VERSION
+      version: remote.process.env.VBS_VERSION
     };
   }
 

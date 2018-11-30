@@ -13,7 +13,7 @@ if (pjson.name === 'slobs-client-preview') {
 if (pjson.name === 'slobs-client-ipc') {
   process.env.SLOBS_IPC = true;
 }
-process.env.SLOBS_VERSION = pjson.version;
+process.env.VBS_VERSION = pjson.version;
 
 ////////////////////////////////////////////////////////////////////////////////
 // Modules and other Requires
@@ -122,19 +122,19 @@ function startApp() {
     });
 
     process.on('uncaughtException', handleUnhandledException);
-
-    crashReporter.start({
-      productName: 'vurteau-obs',
-      companyName: 'vurteau',
-      submitURL:
-        'https://streamlabs.sp.backtrace.io:6098/post?' +
-        'format=minidump&' +
-        'token=e3f92ff3be69381afe2718f94c56da4644567935cc52dec601cf82b3f52a06ce',
-      extra: {
-        version: pjson.version,
-        processType: 'main'
-      }
-    });
+    //
+    // crashReporter.start({
+    //   productName: 'vurteau-obs',
+    //   companyName: 'vurteau',
+    //   submitURL:
+    //     'https://streamlabs.sp.backtrace.io:6098/post?' +
+    //     'format=minidump&' +
+    //     'token=e3f92ff3be69381afe2718f94c56da4644567935cc52dec601cf82b3f52a06ce',
+    //   extra: {
+    //     version: pjson.version,
+    //     processType: 'main'
+    //   }
+    // });
   }
 
   const mainWindowState = windowStateKeeper({

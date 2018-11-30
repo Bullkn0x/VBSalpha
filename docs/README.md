@@ -1,6 +1,6 @@
 # API reference
 
-Streamlabs-OBS allows remote management of the application via
+Vurteau-OBS allows remote management of the application via
 an RPC-based API. The API is split into several different services.
 You can access services' methods and properties by sending
 [JSON-RPC](http://www.jsonrpc.org/specification) messages to the
@@ -218,7 +218,7 @@ execution.
 
 ## Reducing response body
 By default if the response returns resources with `"_type": "HELPER"`,
-Streamlabs-OBS will attach some data by calling `getModel()` method of resource.
+Vurteau-OBS will attach some data by calling `getModel()` method of resource.
 To disable that behavior, use the `compactMode` parameter in JSON-RPC request:
 
 

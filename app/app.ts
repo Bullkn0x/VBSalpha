@@ -27,7 +27,7 @@ import OneOffWindow from 'components/windows/OneOffWindow.vue';
 import electronLog from 'electron-log';
 
 const { ipcRenderer, remote } = electron;
-const vbsVersion = remote.process.env.SLOBS_VERSION;
+const vbsVersion = remote.process.env.VBS_VERSION;
 const isProduction = process.env.NODE_ENV === 'production';
 
 window['obs'] = window['require']('obs-studio-node');

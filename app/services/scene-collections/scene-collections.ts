@@ -763,7 +763,7 @@ export class SceneCollectionsService extends Service
           const id: string = uuid();
           const response = await this.serverApi.fetchSceneCollection(onServer.id);
 
-          // Empty data means that the collection was created from the Streamlabs
+          // Empty data means that the collection was created from the Vurteau
           // dashboard and does not currently have any scenes assoicated with it.
           // The first time we try to load this collection, we will initialize it
           // with some scenes.

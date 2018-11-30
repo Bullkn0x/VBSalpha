@@ -114,11 +114,7 @@ export class SettingsService extends StatefulService<ISettingsState>
   getCategories(): string[] {
     let categories = obs.NodeObs.OBS_settings_getListCategories();
     categories = categories
-      .concat(['Scene Collections', 'Notifications', 'Appearance']);
-
-    if (this.advancedSettingEnabled() || this.platformAppsService.state.devMode) {
-      categories = categories.concat('Developer');
-    }
+      .concat(['Notifications', 'Appearance']);
 
     if (this.platformAppsService.state.loadedApps.filter(app => !app.unpacked).length > 0) {
       categories = categories.concat('Installed Apps');

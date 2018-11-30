@@ -1,6 +1,6 @@
 # Vurteau Broadcast Studio
 
-[![Build status](https://ci.appveyor.com/api/projects/status/xxn8immagev9o1fd/branch/staging?svg=true)](https://ci.appveyor.com/project/Streamlabs/streamlabs-obs)
+[![Build status](https://ci.appveyor.com/api/projects/status/xxn8immagev9o1fd/branch/staging?svg=true)](https://ci.appveyor.com/project/Vurteau/streamlabs-obs)
 
 Simple, powerful, and efficient live streaming software built on Electron and OBS.
 

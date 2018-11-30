@@ -4,7 +4,7 @@
     <!-- <div class="onboarding-step onboarding-step--wide">
       <div class="onboarding-title">{{ $t('Add Widgets') }}</div>
       <div class="onboarding-desc">
-        {{ $t('Select the Streamlabs widgets you would like to activate for your stream. These will get automatically added to your scene.') }}
+        {{ $t('Select the Vurteau widgets you would like to activate for your stream. These will get automatically added to your scene.') }}
       </div>
       <div class="select-widgets">
         <div class="select-widgets__column">

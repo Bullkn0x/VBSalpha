@@ -42,7 +42,7 @@ export class UsageStatisticsService extends Service {
   @Inject() hostsService: HostsService;
 
   installerId: string;
-  version = electron.remote.process.env.SLOBS_VERSION;
+  version = electron.remote.process.env.VBS_VERSION;
 
   init() {
     this.loadInstallerId();

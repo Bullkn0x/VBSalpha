@@ -37,7 +37,7 @@
       <div>
         {{ $t('You can now control Vurteau Broadcast Studio from your phone.') }} <br/>
         {{ $t('To begin, Scan this QR code with your phone.') }}<br/>
-        {{ $t('This feature will only work with the most recent version of the Streamlabs mobile app.') }}<br/>
+        {{ $t('This feature will only work with the most recent version of the Vurteau mobile app.') }}<br/>
       </div>
     </div>
   </div>

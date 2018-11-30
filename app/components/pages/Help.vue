@@ -7,7 +7,7 @@
     <div class="help-page__section">
       <div class="help-page__header">
         <h1>Getting Started</h1>
-        <div>Everything you need to get started with Streamlabs.</div>
+        <div>Everything you need to get started with Vurteau.</div>
       </div>
 
       <div v-for="(video, idx) in videos" :key="idx" v-if="idx < 3">
@@ -40,7 +40,7 @@
     <div class="help-page__section">
       <div class="help-page__header">
         <h1>Troubleshooting</h1>
-        <div>Having issues with Streamlabs? Here are some potential fixes.</div>
+        <div>Having issues with Vurteau? Here are some potential fixes.</div>
       </div>
       <div v-for="(video, idx) in videos" :key="idx" v-if="idx >= 3">
         <div class="help-item">

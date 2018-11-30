@@ -2,7 +2,7 @@
 
 $(() => {
 
-  var projectName = 'Streamlabs-OBS';
+  var projectName = 'Vurteau-OBS';
   if (isHomePage()) document.querySelector('h1').innerHTML = projectName;
 
   // patch header

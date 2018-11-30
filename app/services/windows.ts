@@ -170,7 +170,7 @@ export class WindowsService extends StatefulService<IWindowsState> {
       componentName: 'Main',
       scaleFactor: 1,
       isShown: true,
-      title: `Vurteau Broadcast Studio - Version: ${remote.process.env.SLOBS_VERSION}`
+      title: `Vurteau Broadcast Studio - Version: ${remote.process.env.VBS_VERSION}`
     },
     child: {
       componentName: '',

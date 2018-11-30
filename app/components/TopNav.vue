@@ -171,8 +171,8 @@
 
 .night-theme {
   .top-nav {
-    background-color: @night-primary;
-    border-color: @night-border;
+    background-color: @Vurteau-3;
+    border-color: @Vurteau-3;
   }
 
   .theme-toggle {

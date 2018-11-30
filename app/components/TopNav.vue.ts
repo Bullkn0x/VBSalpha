@@ -101,10 +101,6 @@ export default class TopNav extends Vue {
     this.customizationService.nightMode = !this.customizationService.nightMode;
   }
 
-  openDiscord() {
-    electron.remote.shell.openExternal('https://discordapp.com/invite/stream');
-  }
-
   get isDevMode() {
     return Utils.isDevMode();
   }

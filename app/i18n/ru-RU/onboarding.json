@@ -1,7 +1,7 @@
 {
   "We are improving our backend systems. As part of the migration process, we will need to you log in again. If you have any questions, you can": "Мы улучшаем наши бекенд-системы. В рамках процесса миграции нам необходимо чтобы вы снова вошли в систему. Если у вас есть вопросы, вы можете",
   "contact support.": "обратиться в службу поддержки.",
-  "Sign in with your Twitch or Youtube account to start streaming with Vurteau": "Войдите с помощью вашей учетной записи Twitch или YouTube для начала работы со Streamlabs",
+  "Sign in with your Twitch or Youtube account to start streaming with Vurteau": "Войдите с помощью вашей учетной записи Twitch или YouTube для начала работы со Vurteau",
   "Select an OBS profile to import": "Выберите профиль OBS для импорта",
   "Import from OBS": "Импортировать из OBS",
   "Start Fresh": "Начать с нуля",
@@ -34,6 +34,6 @@
   "Done!": "Готово!",
   "Next": "Далее",
   "Scene Collections Import": "Импорт Коллекции Сцен",
-  "The following collections have been imported from your Vurteau account": "Следующие коллекции сцен были импортированы из вашей учетной записи Streamlabs",
+  "The following collections have been imported from your Vurteau account": "Следующие коллекции сцен были импортированы из вашей учетной записи Vurteau",
   "Continue": "Продолжить"
 }

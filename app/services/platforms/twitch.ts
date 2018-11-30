@@ -17,7 +17,7 @@ export class TwitchService extends Service implements IPlatformService {
     height: 800
   };
 
-  // Streamlabs Production Twitch OAuth Client ID
+  // Vurteau Production Twitch OAuth Client ID
   clientId = '8bmp6j83z5w4mepq0dn0q1a7g186azi';
 
   get authUrl() {

@@ -79,7 +79,7 @@ export default class ExtraSettings extends Vue {
   }
 
   openDiscord() {
-    electron.remote.shell.openExternal('https://discord.gg/TbX6UuQ');
+    electron.remote.shell.openExternal('https://discord.gg/ugSmDuM');
   }
 
   get isTwitch() {

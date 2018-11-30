@@ -1,7 +1,7 @@
 {
   "We are improving our backend systems. As part of the migration process, we will need to you log in again. If you have any questions, you can": "Fejlesztjük a backend rendszereinket. A migrációs eljárás részeként arra kérünk, jelentkezz be újra. Amennyiben kérdésed van,",
   "contact support.": "lépj kapcsolatba az ügyfélszolgálattal.",
-  "Sign in with your Twitch or Youtube account to start streaming with Vurteau": "A Streamlabs használatához jelentkezz be a Twitch vagy YouTube fiókoddal",
+  "Sign in with your Twitch or Youtube account to start streaming with Vurteau": "A Vurteau használatához jelentkezz be a Twitch vagy YouTube fiókoddal",
   "Select an OBS profile to import": "Válaszd ki az importálni kívánt OBS profilt",
   "Import from OBS": "Importálás OBS-ből",
   "Start Fresh": "Kezdj Teljesen Újat",
@@ -34,6 +34,6 @@
   "Done!": "Kész!",
   "Next": "Következő",
   "Scene Collections Import": "Jelenet Gyűjtemények Importálása",
-  "The following collections have been imported from your Vurteau account": "A következő jelenet gyűjteményeket importáltuk a Streamlabs fiókodból",
+  "The following collections have been imported from your Vurteau account": "A következő jelenet gyűjteményeket importáltuk a Vurteau fiókodból",
   "Continue": "Tovább"
 }

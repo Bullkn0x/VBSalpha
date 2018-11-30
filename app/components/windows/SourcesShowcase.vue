@@ -114,7 +114,7 @@
         </ul>
       </div>
 
-      <!-- //Code for enabling the Streamlabs Widgets, disabled as of right now -->
+      <!-- //Code for enabling the Vurteau Widgets, disabled as of right now -->
       <!-- <div class="source-group" v-if="loggedIn">
         <h3>{{ $t('Widgets') }}</h3>
         <div class="source-list">

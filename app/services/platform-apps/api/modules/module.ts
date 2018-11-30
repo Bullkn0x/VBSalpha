@@ -52,7 +52,7 @@ export class NotImplementedError extends Error {
   constructor() {
     super(
       'This function is not yet implemented.  It you are interested in ' +
-      'using it, please reach out to the Streamlabs dev team.  Thanks!'
+      'using it, please reach out to the Vurteau dev team.  Thanks!'
     );
   }
 }

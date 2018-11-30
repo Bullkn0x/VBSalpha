@@ -3,7 +3,7 @@
     <div class="media-box">
       <div class="url-uploader" v-if="showUrlUpload">
         <h-form-group :title="$t('Image URL')" >
-          <text-input v-model="url" :metadata="{ placeholder: `${$t('Example')}: https://yoururl.com/image/Streamlabs` }" />
+          <text-input v-model="url" :metadata="{ placeholder: `${$t('Example')}: https://yoururl.com/image/Vurteau` }" />
         </h-form-group>
         <button class="button button--action" @click="uploadUrl">{{ $t('Submit') }}</button>
       </div>

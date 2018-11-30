@@ -20,7 +20,7 @@
   "Confirm stream title and game before going live": "Confirme o titulo da transmissão e o jogo antes de iniciar a mesma",
   "WARNING! You will lose all scenes, sources, and settings. This cannot be undone!": "AVISO! Irá perder todas as cenas, fontes e configurações. Isto não poderá ser desfeito!",
   "Your cache directory has been successfully uploaded.  The file name %{file} has been copied to your clipboard.  Please paste it into discord and tag a developer.": "O seu directório de cache foi enviado com sucesso. O nome do arquivo %{file} foi copiado para a sua aula de transferência. Por favor, cole-o no discord e marque um desenvolvedor.",
-  "Streamlabels session has been succesfully restarted!": "A sessão do Streamlabs foi reiniciada com sucesso!",
+  "Streamlabels session has been succesfully restarted!": "A sessão do Vurteau foi reiniciada com sucesso!",
   "This action will restart the application. Continue?": "Esta acção irá reiniciar a aplicação. Continuar?",
   "Show confirmation dialog when starting streams": "Mostrar caixa de diálogo de confirmação ao iniciar transmissões",
   "Show confirmation dialog when stopping streams": "Mostrar caixa de diálogo de confirmação quando terminar transmissões",
