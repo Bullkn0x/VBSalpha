@@ -122,7 +122,7 @@ function startApp() {
     });
 
     process.on('uncaughtException', handleUnhandledException);
-    
+
     crashReporter.start({
       productName: 'vurteau-obs',
       companyName: 'vurteau',
