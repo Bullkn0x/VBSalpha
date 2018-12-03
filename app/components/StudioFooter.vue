@@ -102,7 +102,7 @@
   position: relative;
   width: 30px;
   height: 30px;
-  background-color: @day-button;
+  background-color: #F85640;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,7 +157,7 @@
   }
 
   .record-button {
-    background-color: @night-button;
+    background-color: #600000;
     border-color: @night-border;
 
     &:hover {
